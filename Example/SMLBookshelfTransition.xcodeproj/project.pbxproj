@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D814B391804FC1300A6B5A0 /* back@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D814B351804FC1300A6B5A0 /* back@2x.jpg */; };
+		3D814B3A1804FC1300A6B5A0 /* front@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D814B361804FC1300A6B5A0 /* front@2x.jpg */; };
+		3D814B3B1804FC1300A6B5A0 /* left@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D814B371804FC1300A6B5A0 /* left@2x.jpg */; };
+		3D814B3C1804FC1300A6B5A0 /* right@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D814B381804FC1300A6B5A0 /* right@2x.jpg */; };
 		3DD65DB117F92A7100300A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD65DB017F92A7100300A11 /* Foundation.framework */; };
 		3DD65DB317F92A7100300A11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD65DB217F92A7100300A11 /* CoreGraphics.framework */; };
 		3DD65DB517F92A7100300A11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD65DB417F92A7100300A11 /* UIKit.framework */; };
@@ -18,14 +22,14 @@
 		3DD65DE617F92B0100300A11 /* SMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD65DE517F92B0100300A11 /* SMLViewController.xib */; };
 		3DD65DEA17F92C9100300A11 /* SMLBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD65DE817F92C9100300A11 /* SMLBackViewController.m */; };
 		3DD65DEB17F92C9100300A11 /* SMLBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD65DE917F92C9100300A11 /* SMLBackViewController.xib */; };
-		3DD65DED17F92F1600300A11 /* front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD65DEC17F92F1600300A11 /* front@2x.png */; };
-		3DD65DEF17F92F6700300A11 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD65DEE17F92F6700300A11 /* back@2x.png */; };
 		3DD65DF317F9307B00300A11 /* SMLBookshelfTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD65DF217F9307B00300A11 /* SMLBookshelfTransitionAnimator.m */; };
-		3DD65DF617F93A0D00300A11 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD65DF417F93A0D00300A11 /* left@2x.png */; };
-		3DD65DF717F93A0D00300A11 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD65DF517F93A0D00300A11 /* right@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D814B351804FC1300A6B5A0 /* back@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back@2x.jpg"; sourceTree = "<group>"; };
+		3D814B361804FC1300A6B5A0 /* front@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "front@2x.jpg"; sourceTree = "<group>"; };
+		3D814B371804FC1300A6B5A0 /* left@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "left@2x.jpg"; sourceTree = "<group>"; };
+		3D814B381804FC1300A6B5A0 /* right@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "right@2x.jpg"; sourceTree = "<group>"; };
 		3DD65DAD17F92A7100300A11 /* SMLBookshelfTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMLBookshelfTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD65DB017F92A7100300A11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DD65DB217F92A7100300A11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,12 +48,8 @@
 		3DD65DE717F92C9100300A11 /* SMLBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLBackViewController.h; sourceTree = "<group>"; };
 		3DD65DE817F92C9100300A11 /* SMLBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLBackViewController.m; sourceTree = "<group>"; };
 		3DD65DE917F92C9100300A11 /* SMLBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMLBackViewController.xib; sourceTree = "<group>"; };
-		3DD65DEC17F92F1600300A11 /* front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front@2x.png"; sourceTree = "<group>"; };
-		3DD65DEE17F92F6700300A11 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		3DD65DF117F9307B00300A11 /* SMLBookshelfTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLBookshelfTransitionAnimator.h; sourceTree = "<group>"; };
 		3DD65DF217F9307B00300A11 /* SMLBookshelfTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLBookshelfTransitionAnimator.m; sourceTree = "<group>"; };
-		3DD65DF417F93A0D00300A11 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
-		3DD65DF517F93A0D00300A11 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 		3DD65DB717F92A7100300A11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DD65DF417F93A0D00300A11 /* left@2x.png */,
-				3DD65DF517F93A0D00300A11 /* right@2x.png */,
-				3DD65DEE17F92F6700300A11 /* back@2x.png */,
-				3DD65DEC17F92F1600300A11 /* front@2x.png */,
+				3D814B351804FC1300A6B5A0 /* back@2x.jpg */,
+				3D814B361804FC1300A6B5A0 /* front@2x.jpg */,
+				3D814B371804FC1300A6B5A0 /* left@2x.jpg */,
+				3D814B381804FC1300A6B5A0 /* right@2x.jpg */,
 				3DD65DB817F92A7100300A11 /* SMLBookshelfTransition-Info.plist */,
 				3DD65DB917F92A7100300A11 /* InfoPlist.strings */,
 				3DD65DBC17F92A7100300A11 /* main.m */,
@@ -191,13 +191,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DD65DC917F92A7100300A11 /* Images.xcassets in Resources */,
-				3DD65DF617F93A0D00300A11 /* left@2x.png in Resources */,
+				3D814B3B1804FC1300A6B5A0 /* left@2x.jpg in Resources */,
 				3DD65DE617F92B0100300A11 /* SMLViewController.xib in Resources */,
+				3D814B3C1804FC1300A6B5A0 /* right@2x.jpg in Resources */,
+				3D814B3A1804FC1300A6B5A0 /* front@2x.jpg in Resources */,
+				3D814B391804FC1300A6B5A0 /* back@2x.jpg in Resources */,
 				3DD65DEB17F92C9100300A11 /* SMLBackViewController.xib in Resources */,
 				3DD65DBB17F92A7100300A11 /* InfoPlist.strings in Resources */,
-				3DD65DED17F92F1600300A11 /* front@2x.png in Resources */,
-				3DD65DEF17F92F6700300A11 /* back@2x.png in Resources */,
-				3DD65DF717F93A0D00300A11 /* right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
