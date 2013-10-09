@@ -3,6 +3,7 @@ SMLBookshelfTransition
 
 A dead simple "bookshelf" UIViewController transition for iOS 7.
 
+![Screenshot](http://spacemanlabs.com/github/smlbookshelftransition/screen-capture-trimmed.mov.gif)
 
 ###Easy Setup
 
