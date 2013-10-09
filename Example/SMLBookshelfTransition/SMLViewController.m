@@ -38,7 +38,7 @@
 	animator.leftView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"left.jpg"]];
 	animator.rightView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"right.jpg"]];
 	
-	animator.direction = self.direction.selectedSegmentIndex > 0 ? SMLBookshelfTransitionRight : SMLBookshelfTransitionLeft;
+	animator.rotationDirection = self.direction.selectedSegmentIndex > 0 ? SMLBookshelfTransitionRight : SMLBookshelfTransitionLeft;
 	animator.dismissesWithOppositeDirection = self.rotation.selectedSegmentIndex > 0;
 
 	CGFloat duration = [self.duration.text floatValue];

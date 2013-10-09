@@ -21,7 +21,7 @@
 	self.duration = 1.5f;
 	self.bookshelfDepth = 150.0f;
 	self.perspective = -1.0f/1000.0f;
-	self.direction = SMLBookshelfTransitionLeft;
+	self.rotationDirection = SMLBookshelfTransitionLeft;
 	self.dismissesWithOppositeDirection = NO;
 	
 	return self;
@@ -151,11 +151,11 @@
 	animation.removedOnCompletion = NO;
 	animation.fillMode = kCAFillModeForwards;
 	
-	SMLBookshelfTransitionDirection direction = self.direction;
+	SMLBookshelfTransitionDirection direction = self.rotationDirection;
 
 	// Reverse our direction if we are dismissing, and the dismissesWithOppositeDirection flag is set
 	if (self.dismissing && self.dismissesWithOppositeDirection) {
-		switch (self.direction) {
+		switch (self.rotationDirection) {
 			case SMLBookshelfTransitionLeft: {
 				direction = SMLBookshelfTransitionRight;
 				break;
