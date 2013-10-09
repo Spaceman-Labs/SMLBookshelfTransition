@@ -20,6 +20,7 @@
 	
 	self.duration = 1.5f;
 	self.bookshelfDepth = 150.0f;
+	self.perspective = -1.0f/1000.0f;
 	self.direction = SMLBookshelfTransitionLeft;
 	self.dismissesWithOppositeDirection = NO;
 	
@@ -80,7 +81,7 @@
 	perspectiveView.backgroundColor = [UIColor blackColor];
 	
 	CATransform3D perspective = CATransform3DIdentity;
-	perspective.m34 = -1.0f/1000.0f;
+	perspective.m34 = self.perspective;
 	perspectiveView.layer.sublayerTransform = perspective;
 	
 	[containerView addSubview:perspectiveView];

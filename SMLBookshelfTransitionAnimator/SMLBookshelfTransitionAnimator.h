@@ -19,6 +19,7 @@ typedef NS_ENUM(NSUInteger, SMLBookshelfTransitionDirection)
 
 @property (assign, nonatomic) CGFloat duration; // Default is 1.5f
 @property (assign, nonatomic) CGFloat bookshelfDepth; // Default is 150.0f
+@property (assign, nonatomic) CGFloat perspective; // Default is -.001f
 @property (assign, nonatomic) SMLBookshelfTransitionDirection direction; // Default is Left
 @property (assign, nonatomic) BOOL dismissesWithOppositeDirection; // Default is NO
 
